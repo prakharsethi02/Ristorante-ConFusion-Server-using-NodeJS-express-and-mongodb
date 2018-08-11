@@ -8,5 +8,5 @@ Run `npm start` to start web server. I have used `Morgan` a HTTP request logger 
 
 ## Routes Folder
 
-The folder contains the files that used express router in express framework to support `REST AI`. <br>
+The folder contains the files that used express router in express framework to support `REST API`. <br>
 `index.js` contains a REST API to support the application.
