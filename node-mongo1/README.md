@@ -1,12 +1,17 @@
-# Web Server using Express Framework and Express Router to support REST API
+# Configuring Node Application to communicate with MongoDB server
 
-The folder contains the files that implements a simple web server using Express framework that in turn serves static content.
+The folder contains two files `index.js` and `operations.js`that allow node application to communicate with MongoDb server in order to perform certain database operations. 
 
 ## Development server
 
-Run `npm start` to start web server. I have used `Morgan` a HTTP request logger middleware for serving static files.
+Run `mongo` to start mongo REPL shell. 
 
-## Routes Folder
+## index.js
 
-The folder contains the files that used express router in express framework to support `REST AI`. <br>
-`index.js` contains a REST API to support the application.
+`index.js` file allows to interact with the MongoDB database from a Node application.
+
+## operations.js
+
+`operations.js` file allows to perform various database operations on the MongoDB server from your Node application using the Node MongoDB driver.<br>
+
+To avoid callback hell `promise` is used in both files.
