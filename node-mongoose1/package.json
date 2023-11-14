@@ -10,6 +10,6 @@
   "author": "Prakhar Sethi",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^5.2.5"
+    "mongoose": "^5.3.9"
   }
 }
